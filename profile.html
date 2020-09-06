@@ -43,45 +43,135 @@
         </div>
     </nav>
 
-    <section class="d-flex align-items-center main">
-        <div class="">
-            <img class="rounded-circle" style="width: 60px; height: 60px;" src="assets/images/christian.png" alt="">
-        </div>
-        <div class="p-4">
-            <h5>Johanes Mikeal</h5>
-            <div class="text-muted">
-                <img src="assets/images/logo/edit (1) 1.svg" alt="">
-                <span>Ubah profile</span>
+    <main class="d-flex">
+        <section class="border pr-0">
+            <div class="d-flex align-items-center main mb-5">
+                <div class="">
+                    <img class="rounded-circle" style="width: 60px; height: 60px;" src="assets/images/christian.png"
+                        alt="">
+                </div>
+                <div class="p-4">
+                    <h5>Johanes Mikeal</h5>
+                    <div class="text-muted">
+                        <img src="assets/images/logo/edit (1) 1.svg" alt="">
+                        <span>Ubah profile</span>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+            <div>
+                <a href="#" class="d-flex align-items-center text-decoration-none mb-3">
+                    <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center mr-3"
+                        style="width: 32px; height: 32px;">
+                        <img src="assets/images/logo/user 1.svg" alt="">
+                    </div>
+                    <span class="text-dark font-weight-bold">My Account</span>
+                </a>
+                <a href="#" class="d-flex align-items-center text-decoration-none mb-3">
+                    <div class="rounded-circle bg-warning d-flex align-items-center justify-content-center mr-3"
+                        style="width: 32px; height: 32px;">
+                        <img src="assets/images/logo/map-pin (3) 1.svg" alt="">
+                    </div>
+                    <span class="text-muted font-weight-bold">Shipping Address</span>
+                </a>
+                <a href="#" class="d-flex align-items-center text-decoration-none mb-3">
+                    <div class="rounded-circle bg-danger d-flex align-items-center justify-content-center mr-3"
+                        style="width: 32px; height: 32px;">
+                        <img src="assets/images/logo/clipboard 1.svg" alt="">
+                    </div>
+                    <span class="text-muted font-weight-bold">My order</span>
+                </a>
+            </div>
+        </section>
+        <section class="main pl-0 m-0">
+            <div class="p-4 border m-5" style="width: 700px; height: 636px;">
+                <h4 class="font-weight-bold">My Profile</h4>
+                <span class="text-muted">Manage your profile information</span>
+                <div class="border-top d-flex mt-3">
+                    <div class="w-100 p-3">
+                        <form action="">
+                            <div class="form-group d-flex justify-content-end align-items-center">
+                                <label for="input-name">Name</label>
+                                <input class="w-75 p-2 ml-5" type="text" name="input-name" id="input-name"
+                                    placeholder="Name">
+                            </div>
+                            <div class="form-group d-flex justify-content-end align-items-center">
+                                <label for="input-email">Email</label>
+                                <input class="w-75 p-2 ml-5" type="email" name="input-email" id="input-email"
+                                    placeholder="Email">
+                            </div>
+                            <div class="form-group d-flex justify-content-end align-items-center">
+                                <label for="input-phone">Phone</label>
+                                <input class="w-75 p-2 ml-5" type="text" name="input-phone" id="input-phone"
+                                    placeholder="Phone">
+                            </div>
+                            <div class="form-check d-flex d-flex justify-content-end align-items-center">
+                                <label for="input-phone">Gender</label>
+                                <div class="flex-grow-1 ml-5 form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Laki-laki</label>
+                                </div>
+                                <div class="flex-grow-1 form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Perempuan</label>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <label for="input-birth">Date of birth</label>
+                                <div class="btn-group ml-5">
+                                    <button type="button" id="input-birth"
+                                        class="btn btn-outline-secondary rounded dropdown-toggle" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        1
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group ml-4">
+                                    <button type="button" id="input-birth"
+                                        class="btn btn-outline-secondary rounded dropdown-toggle" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        January
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                    </div>
+                                </div>
 
-    <section>
-        <a href="#" class="d-flex align-items-center text-decoration-none mb-3">
-            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center mr-3" style="width: 32px; height: 32px;">
-                <img src="assets/images/logo/user 1.svg" alt="">
+                                <div class="btn-group ml-4 mr-3">
+                                    <button type="button" id="input-birth"
+                                        class="btn btn-outline-secondary rounded dropdown-toggle" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        1990
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <input class="btn btn-success rounded-pill" type="submit" value="Save">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="border-left d-flex flex-column align-items-center justify-content-center mt-5"
+                        style="width: 260px;">
+                        <img class="rounded-circle mb-4" style="width: 110px; height: 110px;"
+                            src="assets/images/christian.png" alt="">
+                        <button type="button" class="btn btn-outline-secondary rounded-pill pl-3 pr-3">Select
+                            Image</button>
+                    </div>
+                </div>
             </div>
-            <span class="text-dark font-weight-bold">My Account</span>
-        </a>
-        <a href="#" class="d-flex align-items-center text-decoration-none mb-3">
-            <div class="rounded-circle bg-warning d-flex align-items-center justify-content-center mr-3" style="width: 32px; height: 32px;">
-                <img src="assets/images/logo/map-pin (3) 1.svg" alt="">
-            </div>
-            <span class="text-muted font-weight-bold">Shipping Address</span>
-        </a>
-        <a href="#" class="d-flex align-items-center text-decoration-none mb-3">
-            <div class="rounded-circle bg-danger d-flex align-items-center justify-content-center mr-3" style="width: 32px; height: 32px;">
-                <img src="assets/images/logo/clipboard 1.svg" alt="">
-            </div>
-            <span class="text-muted font-weight-bold">My order</span>
-        </a>
-    </section>
+        </section>
+    </main>
+
+
 
     <!-- <section class="d-flex justify-content-end">
-        <div class="p-5 m-5 border" style="width: 850px; height: 636px;">
-            <h1>My Profile</h1>
-            <span>Manage your profile information</span>
-        </div>
+        
     </section> -->
 </body>
 
